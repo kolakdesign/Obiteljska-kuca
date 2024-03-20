@@ -829,10 +829,12 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
-#logo {
-  display: block;
+#logo img {
   position: absolute;
-  right: 0px;
-  bottom: 0px;
-  width: 8rem;
+  float: left;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  max-height: 50px;
+  max-width: auto;
 }
