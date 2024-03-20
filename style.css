@@ -828,3 +828,11 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+#logo {
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 8rem;
+}
