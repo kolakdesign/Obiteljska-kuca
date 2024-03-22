@@ -40,8 +40,14 @@ var APP_DATA = {
           "pitch": -0.18791259711865216,
           "rotation": 5.497787143782138,
           "target": "8-stubite"
+        },
+        {
+          "yaw": -3.037742625374369,
+          "pitch": 0.13367476016946434,
+          "rotation": 0,
+          "target": "17-dvorite1"
         }
-      ],
+          ],
       "infoHotspots": []
     },
     {
@@ -196,6 +202,12 @@ var APP_DATA = {
           "pitch": 0.25472469196903624,
           "rotation": 0,
           "target": "2-dnevni-boravak-kuhinja-i-blagovaonica"
+        },
+        {
+          "yaw": 1.1373193148289111,
+          "pitch": 0.14176115998936467,
+          "rotation": 0,
+          "target": "18-dvorite2"
         }
       ],
       "infoHotspots": []
@@ -348,6 +360,18 @@ var APP_DATA = {
           "pitch": 0.07405051052208478,
           "rotation": 0,
           "target": "1-hodnik"
+        },
+        {
+          "yaw": -0.4885033932253986,
+          "pitch": 0.10169306319344606,
+          "rotation": 0,
+          "target": "19-dvorite3"
+        },
+        {
+          "yaw": 1.9047860604792826,
+          "pitch": 0.15390108081704312,
+          "rotation": 0,
+          "target": "17-dvorite1"
         }
       ],
       "infoHotspots": []
@@ -775,6 +799,150 @@ var APP_DATA = {
           "rotation": 0,
           "target": "9-hodnik"
         }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-dvorite1",
+      "name": "Dvorište1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.030955398594930017,
+          "pitch": 0.00991584862022954,
+          "rotation": 0,
+          "target": "0-ulaz"
+        },
+        {
+          "yaw": -1.1142613527578078,
+          "pitch": 0.031197099162302067,
+          "rotation": 0,
+          "target": "18-dvorite2"
+        },
+        {
+          "yaw": 1.0441617242535877,
+          "pitch": 0.07750741913075743,
+          "rotation": 0,
+          "target": "7-garaa"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-dvorite2",
+      "name": "Dvorište2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.22302900280944193,
+          "pitch": 0.059036547524002,
+          "rotation": 0,
+          "target": "3-terasa"
+        },
+        {
+          "yaw": -0.7324613531742141,
+          "pitch": 0.030540240451337297,
+          "rotation": 0,
+          "target": "19-dvorite3"
+        },
+        {
+          "yaw": 0.6553640518236072,
+          "pitch": 0.05120205682239387,
+          "rotation": 0,
+          "target": "17-dvorite1"
+        },
+      ],
+        "infoHotspots": []
+      },
+      {
+          "id": "19-dvorite3",
+          "name": "Dvorište3",
+          "levels": [
+            {
+              "tileSize": 256,
+              "size": 256,
+              "fallbackOnly": true
+            },
+            {
+              "tileSize": 512,
+              "size": 512
+            },
+            {
+              "tileSize": 512,
+              "size": 1024
+            },
+            {
+              "tileSize": 512,
+              "size": 2048
+            }
+          ],
+          "faceSize": 2048,
+          "initialViewParameters": {
+            "pitch": 0,
+            "yaw": 0,
+            "fov": 1.5707963267948966
+          },
+          "linkHotspots": [
+            {
+              "yaw": -0.17808887482165936,
+              "pitch": 0.01511427479187688,
+              "rotation": 0,
+              "target": "18-dvorite2"
+            },
+            {
+              "yaw": -1.7445252635544275,
+              "pitch": 0.0856822285883645,
+              "rotation": 0,
+              "target": "7-garaa"
+            }
       ],
       "infoHotspots": []
     }
