@@ -1,8 +1,12 @@
 var APP_DATA = {
+  /* PROMJENA POLOŽAJA TOČKICA XY, MAP CONTAINER 1 ILI 2 POZIVA NA SLIKU MAPE*/
   "scenes": [
     {
       "id": "0-ulaz",
       "name": "Ulaz",
+      "mapcontainer": "1",
+      "x": "42%",
+      "y": "40%",
       "levels": [
         {
           "tileSize": 256,
@@ -53,6 +57,9 @@ var APP_DATA = {
     {
       "id": "1-hodnik",
       "name": "Hodnik",
+      "mapcontainer": "1",
+      "x": "42%",
+      "y": "62%",
       "levels": [
         {
           "tileSize": 256,
@@ -127,6 +134,9 @@ var APP_DATA = {
     {
       "id": "2-dnevni-boravak-kuhinja-i-blagovaonica",
       "name": "Dnevni boravak, kuhinja i blagovaonica",
+      "mapcontainer": "1",
+      "x": "55%",
+      "y": "58%",
       "levels": [
         {
           "tileSize": 256,
@@ -171,6 +181,9 @@ var APP_DATA = {
     {
       "id": "3-terasa",
       "name": "Terasa",
+      "mapcontainer": "1",
+      "x": "75%",
+      "y": "52%",
       "levels": [
         {
           "tileSize": 256,
@@ -215,6 +228,9 @@ var APP_DATA = {
     {
       "id": "4-ostava",
       "name": "Ostava",
+      "mapcontainer": "1",
+      "x": "46%",
+      "y": "75%",
       "levels": [
         {
           "tileSize": 256,
@@ -253,6 +269,9 @@ var APP_DATA = {
     {
       "id": "5-kupaonica",
       "name": "Kupaonica",
+      "mapcontainer": "1",
+      "x": "40%",
+      "y": "75%",
       "levels": [
         {
           "tileSize": 256,
@@ -291,6 +310,9 @@ var APP_DATA = {
     {
       "id": "6-radna-soba",
       "name": "Radna soba",
+      "mapcontainer": "1",
+      "x": "29%",
+      "y": "75%",
       "levels": [
         {
           "tileSize": 256,
@@ -329,6 +351,9 @@ var APP_DATA = {
     {
       "id": "7-garaa",
       "name": "Garaža",
+      "mapcontainer": "1",
+      "x": "29%",
+      "y": "45%",
       "levels": [
         {
           "tileSize": 256,
@@ -358,7 +383,7 @@ var APP_DATA = {
         {
           "yaw": -1.5777858644632161,
           "pitch": 0.07405051052208478,
-          "rotation": 0,
+          "rotation": -45,
           "target": "1-hodnik"
         },
         {
@@ -379,6 +404,9 @@ var APP_DATA = {
     {
       "id": "8-stubite",
       "name": "Stubište",
+      "mapcontainer": "2",
+      "x": "39%",
+      "y": "59%",
       "levels": [
         {
           "tileSize": 256,
@@ -429,6 +457,9 @@ var APP_DATA = {
     {
       "id": "9-hodnik",
       "name": "Hodnik",
+      "mapcontainer": "2",
+      "x": "46%",
+      "y": "66%",
       "levels": [
         {
           "tileSize": 256,
@@ -497,6 +528,9 @@ var APP_DATA = {
     {
       "id": "10-spavaa-soba",
       "name": "Spavaća soba",
+      "mapcontainer": "2",
+      "x": "59%",
+      "y": "49%",
       "levels": [
         {
           "tileSize": 256,
@@ -553,6 +587,9 @@ var APP_DATA = {
     {
       "id": "11-garderoba",
       "name": "Garderoba",
+      "mapcontainer": "2",
+      "x": "49%",
+      "y": "45%",
       "levels": [
         {
           "tileSize": 256,
@@ -609,6 +646,9 @@ var APP_DATA = {
     {
       "id": "12-kupaonica2",
       "name": "Kupaonica2",
+      "mapcontainer": "2",
+      "x": "41%",
+      "y": "45%",
       "levels": [
         {
           "tileSize": 256,
@@ -653,6 +693,9 @@ var APP_DATA = {
     {
       "id": "13-djeja-soba1",
       "name": "Dječja soba1",
+      "mapcontainer": "2",
+      "x": "54%",
+      "y": "64%",
       "levels": [
         {
           "tileSize": 256,
@@ -691,6 +734,9 @@ var APP_DATA = {
     {
       "id": "14-djeja-soba2",
       "name": "Dječja soba2",
+      "mapcontainer": "2",
+      "x": "54%",
+      "y": "76%",
       "levels": [
         {
           "tileSize": 256,
@@ -729,6 +775,9 @@ var APP_DATA = {
     {
       "id": "15-kupaonica3",
       "name": "Kupaonica3",
+      "mapcontainer": "2",
+      "x": "40%",
+      "y": "71%",
       "levels": [
         {
           "tileSize": 256,
@@ -767,6 +816,9 @@ var APP_DATA = {
     {
       "id": "16-praonica",
       "name": "Praonica",
+      "mapcontainer": "2",
+      "x": "43%",
+      "y": "81%",
       "levels": [
         {
           "tileSize": 256,
@@ -805,6 +857,9 @@ var APP_DATA = {
     {
       "id": "17-dvorite1",
       "name": "Dvorište1",
+      "mapcontainer": "1",
+      "x": "40%",
+      "y": "17%",
       "levels": [
         {
           "tileSize": 256,
@@ -855,6 +910,9 @@ var APP_DATA = {
     {
       "id": "18-dvorite2",
       "name": "Dvorište2",
+      "mapcontainer": "1",
+      "x": "90%",
+      "y": "46%",
       "levels": [
         {
           "tileSize": 256,
@@ -902,55 +960,61 @@ var APP_DATA = {
       ],
         "infoHotspots": []
       },
-      {
-          "id": "19-dvorite3",
-          "name": "Dvorište3",
-          "levels": [
-            {
-              "tileSize": 256,
-              "size": 256,
-              "fallbackOnly": true
-            },
-            {
-              "tileSize": 512,
-              "size": 512
-            },
-            {
-              "tileSize": 512,
-              "size": 1024
-            },
-            {
-              "tileSize": 512,
-              "size": 2048
-            }
-          ],
-          "faceSize": 2048,
-          "initialViewParameters": {
-            "pitch": 0,
-            "yaw": 0,
-            "fov": 1.5707963267948966
-          },
-          "linkHotspots": [
-            {
-              "yaw": -0.17808887482165936,
-              "pitch": 0.01511427479187688,
-              "rotation": 0,
-              "target": "18-dvorite2"
-            },
-            {
-              "yaw": -1.7445252635544275,
-              "pitch": 0.0856822285883645,
-              "rotation": 0,
-              "target": "7-garaa"
-            }
+    {
+      "id": "19-dvorite3",
+      "name": "Dvorište3",
+      "mapcontainer": "1",
+      "x": "24%",
+      "y": "93%",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
       ],
-      "infoHotspots": []
-    }
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.17808887482165936,
+          "pitch": 0.01511427479187688,
+          "rotation": 0,
+          "target": "18-dvorite2"
+        },
+        {
+          "yaw": -1.7445252635544275,
+          "pitch": 0.0856822285883645,
+          "rotation": 0,
+          "target": "7-garaa"
+        }
+  ],
+  "infoHotspots": []
+}
+
+    
   ],
   "name": "Obiteljska kuća",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "deviceOrientationEnabled": true,
+    "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": false
   }
